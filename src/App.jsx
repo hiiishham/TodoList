@@ -1,15 +1,13 @@
 import React from 'react'
-import { TodoProvider } from "./Components/TodoContext";
 import Todo from './Components/Todo'
+import { TodoProvider } from './Components/TodoContext'
 
 function App() {
   return (
     <div>
-
       <TodoProvider>
         <Todo />
       </TodoProvider>
-      
     </div>
   )
 }
