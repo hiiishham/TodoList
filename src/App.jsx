@@ -1,5 +1,5 @@
 import React from 'react'
-import { TodoProvider } from './Components/Todocontext'
+import { TodoProvider } from "./Components/TodoContext";
 import Todo from './Components/Todo'
 
 function App() {
